@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncIO", "AsyncIO\AsyncIO.csproj", "{3830B7A3-0225-4FDA-B155-E085E183650C}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication2", "ConsoleApplication2\ConsoleApplication2.csproj", "{6EA1EA0B-9828-47B3-AEE3-586ECE9933B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncIO.Unity", "AsyncIO\AsyncIO.Unity.csproj", "{643764AA-60E3-4E6E-9188-1352B23C26A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncIO.Android", "AsyncIO.Android\AsyncIO.Android.csproj", "{0920F491-1B57-40D2-8E64-553709BF04F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{643764AA-60E3-4E6E-9188-1352B23C26A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{643764AA-60E3-4E6E-9188-1352B23C26A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{643764AA-60E3-4E6E-9188-1352B23C26A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0920F491-1B57-40D2-8E64-553709BF04F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0920F491-1B57-40D2-8E64-553709BF04F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0920F491-1B57-40D2-8E64-553709BF04F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0920F491-1B57-40D2-8E64-553709BF04F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
